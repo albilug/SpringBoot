@@ -11,9 +11,9 @@ import java.util.List;
 @RequestMapping("/ex_3")
 public class Exercise3 {
         private List<Meal> meals = new ArrayList<>(Arrays.asList(
-                new Meal("Carotone", "Carote con burro", 10),
-                new Meal("Pandispagna", "Solo pane... ma dalla spagna", 5),
-                new Meal("Grilli fritti", "CRI CRI CRI", 3))
+                new Meal("Carotone", "Carote con burro", 10.00),
+                new Meal("Pandispagna", "Solo pane... ma dalla spagna", 5.00),
+                new Meal("Grilli fritti", "CRI CRI CRI", 3.00))
         );
 
         @GetMapping(value = "/meal/get")
